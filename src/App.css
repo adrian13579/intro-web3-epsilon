@@ -14,21 +14,36 @@
 
 .header {
   text-align: center;
-  font-size: 32px;
+  font-size: 5rem;
   font-weight: 600;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Architects Daughter', cursive;
 }
 
 .bio {
   text-align: center;
-  color: gray;
+  color: white;
   margin-top: 16px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Architects Daughter', cursive;
 }
 
+.waveButton:hover{
+	background-color: white;
+	color : black;
+}
 .waveButton {
   cursor: pointer;
   margin-top: 16px;
   padding: 8px;
   border: 0;
   border-radius: 5px;
-  
+  background-color: black;
+  color : white;
+  font-family: 'Anton', sans-serif;
+}
+
+.header:hover {
+  transform: rotate(4deg); /* Equal to rotateZ(45deg) */
 }
