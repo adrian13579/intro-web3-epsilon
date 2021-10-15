@@ -27,11 +27,31 @@
   margin-top: 16px;
   font-family: 'Anton', sans-serif;
   font-family: 'Architects Daughter', cursive;
+  font-size: 2rem;
+}
+
+form {
+  text-align: center;
+  margin: 30px;
+}
+
+.textArea {
+  background-color: black;
+  color: white;
+  resize: none;
+}
+
+.label {
+	color: white;
+	margin: 30px 30px 30px 30px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Architects Daughter', cursive;
+	font-size: 2rem;
 }
 
 .waveButton:hover{
 	background-color: white;
-	color : black;
+	color : green;
 }
 .waveButton {
   cursor: pointer;
@@ -39,8 +59,8 @@
   padding: 8px;
   border: 0;
   border-radius: 5px;
-  background-color: black;
-  color : white;
+  background-color: white;
+  color : black;
   font-family: 'Anton', sans-serif;
 }
 
